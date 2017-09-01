@@ -21,7 +21,6 @@ import Photos
 class PhotoLibraryController: UIViewController, PhotoFetcher {
     @IBOutlet weak var collectionView: UICollectionView!
     
-    
     var images = [UIImage]()
     var selectedImage: UIImage?
     var multiSelect: Bool = false
