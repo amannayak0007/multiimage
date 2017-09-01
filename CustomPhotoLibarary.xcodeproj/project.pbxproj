@@ -13,7 +13,6 @@
 		BD43AAF41E4EBD0F0000C39D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD43AAF31E4EBD0F0000C39D /* Assets.xcassets */; };
 		BD43AAF71E4EBD0F0000C39D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD43AAF51E4EBD0F0000C39D /* LaunchScreen.storyboard */; };
 		BD94ACD81E4FB0B400AFCB99 /* AssetCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94ACD71E4FB0B400AFCB99 /* AssetCollectionCell.swift */; };
-		BD94ACDA1E4FC66400AFCB99 /* SeeImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94ACD91E4FC66400AFCB99 /* SeeImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		BD43AAF61E4EBD0F0000C39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD43AAF81E4EBD0F0000C39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD94ACD71E4FB0B400AFCB99 /* AssetCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetCollectionCell.swift; sourceTree = "<group>"; };
-		BD94ACD91E4FC66400AFCB99 /* SeeImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				BD43AAEC1E4EBD0F0000C39D /* AppDelegate.swift */,
-				BD94ACD91E4FC66400AFCB99 /* SeeImageController.swift */,
 				BD94ACD71E4FB0B400AFCB99 /* AssetCollectionCell.swift */,
 				BD43AAEE1E4EBD0F0000C39D /* PhotoLibraryController.swift */,
 				BD43AAF01E4EBD0F0000C39D /* Main.storyboard */,
@@ -143,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD94ACDA1E4FC66400AFCB99 /* SeeImageController.swift in Sources */,
 				BD43AAEF1E4EBD0F0000C39D /* PhotoLibraryController.swift in Sources */,
 				BD43AAED1E4EBD0F0000C39D /* AppDelegate.swift in Sources */,
 				BD94ACD81E4FB0B400AFCB99 /* AssetCollectionCell.swift in Sources */,

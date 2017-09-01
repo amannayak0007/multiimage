@@ -47,7 +47,7 @@ class PhotoLibraryController: UIViewController, PhotoFetcher {
     
     //Send Button Action
     func send(){
-
+        
        var photosToSend = [UIImage]()
         
         for (key, value) in selectedIndexes {
@@ -60,20 +60,13 @@ class PhotoLibraryController: UIViewController, PhotoFetcher {
             delegate!.getSelectedLibrary(images:photosToSend)
         }
         
+        
+        
         self.navigationController?.popViewController(animated: true)
         
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == String(describing: SeeImageController.self){
-            if let seeImageController = segue.destination as? SeeImageController{
-                seeImageController.image = selectedImage
-            }
-        }
-    }
-    
 }
-
 
 extension PhotoLibraryController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
@@ -148,9 +141,6 @@ extension PhotoLibraryController: UICollectionViewDelegate, UICollectionViewData
             self.collectionView.reloadItems(at: [indexPath])
         }
             
-        else{
-            performSegue(withIdentifier: String(describing: SeeImageController.self), sender: self)
-        }
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
